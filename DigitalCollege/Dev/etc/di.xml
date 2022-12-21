@@ -1,0 +1,8 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+
+    <preference for="DigitalCollege\Dev\Api\PostManagementInterface" type="DigitalCollege\Dev\Model\PostManagement"/>
+    <preference for="DigitalCollege\Dev\Api\CategoryLinkManagementInterface" type="DigitalCollege\Dev\Model\CategoryLinkManagement" />
+    <preference for="DigitalCollege\Dev\Api\ProductLinkManagementInterface" type="DigitalCollege\Dev\Model\CategoryLinkManagement" />
+    <preference for="DigitalCollege\Dev\Api\Data\CategoryProductLinkInterface" type="DigitalCollege\Dev\Model\CategoryProductLink" />
+</config>
